@@ -3,21 +3,23 @@ id: 62a19a96-b6f3-4599-b209-76959e56d788
 management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.275.4
-  releaseVersion: 0.6.0
-  configChecksum: 554c05e831a9399a69f17ea10cdebab9
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 0.7.0
+  configChecksum: f76cc9dd468627f9566b4b4dc6bfd384
   repoURL: https://github.com/speakeasy-sdks/test12342.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/test12342.git
 features:
   python:
-    core: 4.5.0
+    core: 4.5.1
     globalServerURLs: 2.82.1
+    responseFormat: 0.1.0
 generatedFiles:
   - src/test/sdkconfiguration.py
   - src/test/pets.py
   - src/test/sdk.py
+  - py.typed
   - pylintrc
   - setup.py
   - src/test/__init__.py
